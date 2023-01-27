@@ -1,5 +1,8 @@
 # eslint-plugin-rezstream
 
+[![CI](https://github.com/rezstream/eslint-plugin-rezstream/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/rezstream/eslint-plugin-rezstream/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@rezstream/eslint-plugin)](https://www.npmjs.com/package/@rezstream/eslint-plugin)
+
 An opinionated collection of ESLint shared configs and rules used by rezStream projects.
 
 ## Installation
