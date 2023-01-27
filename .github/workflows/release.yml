@@ -1,0 +1,51 @@
+name: Release
+
+on:
+  release:
+   types:
+    - published
+
+env:
+  FORCE_COLOR: 3
+  NODE_VERSION: 18
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+
+    steps:
+      - name: Get version from tag
+        id: tag_name
+        run: echo ::set-output name=current_version::${GITHUB_REF#refs/tags/v}
+
+      - name: Check out repository
+        uses: actions/checkout@v3.1.0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3.5.1
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          registry-url: "https://registry.npmjs.org"
+
+      - name: Get changelog entry
+        uses: mindsers/changelog-reader-action@v2.2.2
+        id: changelog_reader
+        with:
+          version: ${{ steps.tag_name.outputs.current_version }}
+
+      - name: Update release with changelog contents
+        uses: softprops/action-gh-release@v0.1.15
+        id: release_updater
+        with:
+          body: ${{ steps.changelog_reader.outputs.changes }}
+
+      - run: npm ci
+
+      - run: npm test
+
+      - run: npm whoami && npm --ignore-scripts publish
+        env:
+         NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
