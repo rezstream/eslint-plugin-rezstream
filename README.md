@@ -40,10 +40,13 @@ When adding this plugin to a TypeScript project, you'll need to install the foll
 npm install --save-dev eslint-import-resolver-typescript
 ```
 
-And then add the following to your `.eslintrc.cjs` file:
+You may also need to add some or all of the following settings to your `.eslintrc.cjs` file:
 
 ```js
 {
+  parserOptions: {
+    project: "./tsconfig.json",
+  },
   settings: {
     "import/resolver": {
       typescript: {

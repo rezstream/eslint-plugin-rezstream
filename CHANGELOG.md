@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Remove `parserOptions` from typescript config
+
 ## [1.1.0](https://github.com/rezstream/eslint-plugin-rezstream/compare/v1.0.1...v1.1.0) - 2023-01-27
 
 - Took a dependency on `@typescript-eslint/eslint-plugin` and `@typescript-eslint/parser`
