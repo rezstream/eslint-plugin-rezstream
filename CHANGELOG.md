@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## [1.2.0](https://github.com/rezstream/eslint-plugin-rezstream/compare/v1.1.0...v1.2.0) - 2023-01-30
+
 - Remove `parserOptions` from typescript config
 - Disable `unicorn/prefer-module` for `.cjs` files
 - Disable `import/no-extraneous-dependencies` for node configs
