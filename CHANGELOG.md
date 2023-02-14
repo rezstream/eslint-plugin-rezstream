@@ -2,7 +2,6 @@
 
 ## Unreleased
 
-- Bumped `@typescript-eslint/parser` from 5.49.0 to 5.52.0
 - Use `devDependencies` list instead of file override for `import/no-extraneous-dependencies` rule
 
 ## [1.2.0](https://github.com/rezstream/eslint-plugin-rezstream/compare/v1.1.0...v1.2.0) - 2023-01-30
