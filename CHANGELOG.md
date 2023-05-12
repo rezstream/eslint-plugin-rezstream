@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Use `devDependencies` list instead of file override for `import/no-extraneous-dependencies` rule
+- Bumped `@typescript-eslint/eslint-plugin` to 5.59.5
 
 ## [1.2.0](https://github.com/rezstream/eslint-plugin-rezstream/compare/v1.1.0...v1.2.0) - 2023-01-30
 
