@@ -31,9 +31,9 @@
   },
   "devDependencies": {
     "@types/eslint": "^8.4.10",
-    "eslint": "^8.31.0"
+    "eslint": "^8.40.0"
   },
   "peerDependencies": {
-    "eslint": "^8.25.0"
+    "eslint": "^8.38.0"
   }
 }
