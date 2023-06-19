@@ -23,7 +23,7 @@
   },
   "homepage": "https://rezstream.com/rezstream/eslint-plugin-github#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.59.9",
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
     "@typescript-eslint/parser": "^5.59.9",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-unicorn": "^47.0.0",
