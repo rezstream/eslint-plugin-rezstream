@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## [1.4.0](https://github.com/rezstream/eslint-plugin-rezstream/compare/v1.3.0...v1.4.0) - 2023-07-15
+
 - Bumped `@typescript-eslint/eslint-plugin` from 5.59.5 to 5.61.0
 - Bumped `@typescript-eslint/parser` from 5.59.5 to 5.61.0
 - Bumped `eslint-plugin-unicorn` from 47.0.0 to 48.0.0
