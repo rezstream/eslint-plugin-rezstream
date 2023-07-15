@@ -4,6 +4,7 @@
 
 - Bumped `@typescript-eslint/eslint-plugin` from 5.59.5 to 5.61.0
 - Bumped `@typescript-eslint/parser` from 5.59.5 to 5.61.0
+- Bumped `semver` from 5.7.1 to 5.7.2
 
 ## [1.3.0](https://github.com/rezstream/eslint-plugin-rezstream/compare/v1.2.0...v1.3.0) - 2023-05-12
 
