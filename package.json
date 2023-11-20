@@ -30,8 +30,8 @@
     "eslint-plugin-wc": "^2.0.0"
   },
   "devDependencies": {
-    "@types/eslint": "^8.44.6",
-    "eslint": "^8.52.0"
+    "@types/eslint": "^8.44.7",
+    "eslint": "^8.54.0"
   },
   "peerDependencies": {
     "eslint": "^8.38.0"
