@@ -3,7 +3,7 @@
 ## Unreleased
 
 - Bumped `eslint-plugin-unicorn` from 48.0.0 to 51.0.1
-- Bumped `eslint-plugin-wc` from 1.5.0 to 2.0.4
+- Bumped `eslint-plugin-wc` from 1.5.0 to 2.1.0
 
 ## [1.4.0](https://github.com/rezstream/eslint-plugin-rezstream/compare/v1.3.0...v1.4.0) - 2023-07-15
 
