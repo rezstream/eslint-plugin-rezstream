@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## [1.5.0](https://github.com/rezstream/eslint-plugin-rezstream/compare/v1.4.0...v1.5.0) - 2024-12-12
+
 - Bumped `eslint-plugin-unicorn` from 48.0.0 to 56.0.1
 - Bumped `eslint-plugin-wc` from 1.5.0 to 2.2.0
 
