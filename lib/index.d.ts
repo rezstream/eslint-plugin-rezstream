@@ -1,28 +1,29 @@
-import type { Linter } from "eslint";
+import type {
+  ESLint,
+  Linter,
+} from "eslint";
 
-type Config = Linter.Config;
-
-declare const Configs: {
+declare const Configs: ESLint.Plugin & {
   configs: {
     /**
      * @description The base ESLint configuration for RezStream projects.
      */
-    base: Config;
+    base: Linter.Config;
 
     /**
      * @description The recommended ESLint configuration for RezStream projects that will run in the browser.
      */
-    browser: Config[];
+    browser: Linter.Config[];
 
     /**
      * @description The recommended ESLint configuration for RezStream projects. Includes everything from `base`.
      */
-    recommended: Config[];
+    recommended: Linter.Config[];
 
     /**
      * @description The recommended ESLint configuration for RezStream projects that use TypeScript.
      */
-    typescript: Config[];
+    typescript: Linter.Config[];
   };
 };
 
