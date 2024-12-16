@@ -1,7 +1,11 @@
 {
-    "[javascript]": {
-      "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-      }
-    },
+  // This makes sure we use the system version of node, not the vs code version
+  "eslint.runtime": "node",
+  "eslint.useFlatConfig": true,
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
 }
