@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Bumped `braces` from 3.0.2 to 3.0.3
 - Bumped `brace-expansion` from 1.1.11 to 1.1.12
 
 ## [1.5.0](https://github.com/rezstream/eslint-plugin-rezstream/compare/v1.4.0...v1.5.0) - 2024-12-12
