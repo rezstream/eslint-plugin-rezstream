@@ -2,9 +2,11 @@
 
 ## Unreleased
 
+## [1.6.1](https://github.com/rezstream/eslint-plugin-rezstream/compare/v1.6.0...v1.6.1) - 2025-08-26
+
 - Fixed misspelled plugin name
 
-## [1.6.0](https://github.com/rezstream/eslint-plugin-rezstream/compare/v1.5.0...v1.6.0) - 2024-08-25
+## [1.6.0](https://github.com/rezstream/eslint-plugin-rezstream/compare/v1.5.0...v1.6.0) - 2025-08-25
 
 - Bumped `braces` from 3.0.2 to 3.0.3
 - Bumped `brace-expansion` from 1.1.11 to 1.1.12
