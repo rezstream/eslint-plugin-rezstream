@@ -5,6 +5,7 @@
 ## [1.6.1](https://github.com/rezstream/eslint-plugin-rezstream/compare/v1.6.0...v1.6.1) - 2025-08-26
 
 - Fixed misspelled plugin name
+- Bumped `picomatch` from 2.3.1 to 2.3.2
 
 ## [1.6.0](https://github.com/rezstream/eslint-plugin-rezstream/compare/v1.5.0...v1.6.0) - 2025-08-25
 
