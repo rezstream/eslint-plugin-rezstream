@@ -5,6 +5,7 @@
 ## [1.6.1](https://github.com/rezstream/eslint-plugin-rezstream/compare/v1.6.0...v1.6.1) - 2025-08-26
 
 - Fixed misspelled plugin name
+- Bumped `flatted` from 3.2.7 to 3.4.2
 - Bumped `js-yaml` from 4.1.0 to 4.3.0
 - Bumped `picomatch` from 2.3.1 to 2.3.2
 
